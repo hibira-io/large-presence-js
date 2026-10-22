@@ -1,0 +1,54 @@
+{
+  "name": "@hikibi/large-presence",
+  "version": "0.1.0",
+  "description": "pusher-js / Laravel Echo helper for large presence channels (presence-large-*): member count, a member sample and batched join/leave deltas",
+  "keywords": [
+    "pusher",
+    "pusher-js",
+    "laravel-echo",
+    "presence",
+    "websocket",
+    "realtime",
+    "hikibi"
+  ],
+  "homepage": "https://github.com/hikibi-io/large-presence-js#readme",
+  "bugs": {
+    "url": "https://github.com/hikibi-io/large-presence-js/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hikibi-io/large-presence-js.git"
+  },
+  "license": "MIT",
+  "author": "Hikibi (https://hikibi.io)",
+  "type": "module",
+  "main": "index.js",
+  "types": "index.d.ts",
+  "exports": {
+    ".": {
+      "types": "./index.d.ts",
+      "default": "./index.js"
+    }
+  },
+  "files": [
+    "index.js",
+    "index.d.ts",
+    "README.md",
+    "LICENSE",
+    "CHANGELOG.md"
+  ],
+  "sideEffects": false,
+  "engines": {
+    "node": ">=18"
+  },
+  "scripts": {
+    "test": "node --test test/*.test.mjs"
+  },
+  "peerDependencies": {
+    "pusher-js": ">=7"
+  },
+  "publishConfig": {
+    "access": "public",
+    "provenance": true
+  }
+}
