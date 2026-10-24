@@ -5,7 +5,7 @@
 
 A [pusher-js](https://github.com/pusher/pusher-js) and Laravel Echo helper
 for **large presence channels** (`presence-large-*`, up to 100,000 members)
-on [Hibira](https://hikibi.io).
+on [Hibira](https://hibira.io).
 
 Regular presence channels send every subscriber the full member list and one
 event per join and leave, which stops working past a few hundred members.

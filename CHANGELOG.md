@@ -1,5 +1,9 @@
 # Changelog
 
+## 0.1.2
+
+- Links moved to hibira.io. No code changes.
+
 ## 0.1.1
 
 Renamed for the Hikibi → Hibira rebrand. No API changes.

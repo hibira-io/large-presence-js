@@ -1,6 +1,6 @@
 {
   "name": "@hibira-io/large-presence",
-  "version": "0.1.1",
+  "version": "0.1.2",
   "description": "pusher-js / Laravel Echo helper for large presence channels (presence-large-*): member count, a member sample and batched join/leave deltas",
   "keywords": [
     "pusher",
@@ -21,7 +21,7 @@
     "url": "git+https://github.com/hibira-io/large-presence-js.git"
   },
   "license": "MIT",
-  "author": "Hibira (https://hikibi.io)",
+  "author": "Hibira (https://hibira.io)",
   "type": "module",
   "main": "index.js",
   "types": "index.d.ts",
