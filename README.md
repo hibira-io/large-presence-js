@@ -1,11 +1,11 @@
-# @hikibi/large-presence
+# @hibira-io/large-presence
 
-[![npm](https://img.shields.io/npm/v/@hikibi/large-presence)](https://www.npmjs.com/package/@hikibi/large-presence)
-[![ci](https://github.com/hikibi-io/large-presence-js/actions/workflows/ci.yml/badge.svg)](https://github.com/hikibi-io/large-presence-js/actions/workflows/ci.yml)
+[![npm](https://img.shields.io/npm/v/@hibira-io/large-presence)](https://www.npmjs.com/package/@hibira-io/large-presence)
+[![ci](https://github.com/hibira-io/large-presence-js/actions/workflows/ci.yml/badge.svg)](https://github.com/hibira-io/large-presence-js/actions/workflows/ci.yml)
 
 A [pusher-js](https://github.com/pusher/pusher-js) and Laravel Echo helper
 for **large presence channels** (`presence-large-*`, up to 100,000 members)
-on [Hikibi](https://hikibi.io).
+on [Hibira](https://hikibi.io).
 
 Regular presence channels send every subscriber the full member list and one
 event per join and leave, which stops working past a few hundred members.
@@ -18,14 +18,18 @@ date for you.
 ## Install
 
 ```sh
-npm install @hikibi/large-presence pusher-js
+npm install @hibira-io/large-presence pusher-js
 ```
+
+Coming from `@hikibi/large-presence`? Hikibi is now Hibira and the package
+was renamed; the API is the same. Swap the dependency and change the import to
+`@hibira-io/large-presence`.
 
 ## Usage
 
 ```js
 import Pusher from 'pusher-js';
-import { LargePresence } from '@hikibi/large-presence';
+import { LargePresence } from '@hibira-io/large-presence';
 
 const pusher = new Pusher(key, {
   wsHost,
@@ -136,5 +140,5 @@ tagged `v<version>`.
 
 [MIT](LICENSE)
 
-Hikibi is not affiliated with Pusher Ltd. or MessageBird. "Pusher" is used
+Hibira is not affiliated with Pusher Ltd. or MessageBird. "Pusher" is used
 only to describe protocol compatibility.
