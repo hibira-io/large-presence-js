@@ -9,8 +9,7 @@
     "presence",
     "websocket",
     "realtime",
-    "hibira",
-    "hikibi"
+    "hibira"
   ],
   "homepage": "https://github.com/hibira-io/large-presence-js#readme",
   "bugs": {
