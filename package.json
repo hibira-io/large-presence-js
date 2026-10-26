@@ -21,7 +21,7 @@
     "url": "git+https://github.com/hibira-io/large-presence-js.git"
   },
   "license": "MIT",
-  "author": "Hibira (https://hikibi.io)",
+  "author": "Hibira (https://hibira.io)",
   "type": "module",
   "main": "index.js",
   "types": "index.d.ts",
