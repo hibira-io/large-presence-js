@@ -9,8 +9,7 @@
     "presence",
     "websocket",
     "realtime",
-    "hibira",
-    "hikibi"
+    "hibira"
   ],
   "homepage": "https://hibira.io",
   "bugs": {

@@ -21,10 +21,6 @@ date for you.
 npm install @hibira-io/large-presence pusher-js
 ```
 
-Coming from `@hikibi/large-presence`? Hikibi is now Hibira and the package
-was renamed; the API is the same. Swap the dependency and change the import to
-`@hibira-io/large-presence`.
-
 ## Usage
 
 ```js
